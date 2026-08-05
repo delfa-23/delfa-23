@@ -1,0 +1,48 @@
+<svg width="900" height="230" viewBox="0 0 900 230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12131c"/>
+      <stop offset="100%" stop-color="#181a29"/>
+    </linearGradient>
+    <radialGradient id="blob1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22c1c3" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22c1c3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="45"/></filter>
+    <clipPath id="card"><rect x="0" y="0" width="900" height="230" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="230" fill="url(#bg)"/>
+    <circle cx="760" cy="60" r="140" fill="url(#blob1)" filter="url(#blur1)"/>
+    <circle cx="850" cy="170" r="120" fill="url(#blob2)" filter="url(#blur2)"/>
+    <circle cx="640" cy="150" r="90" fill="url(#blob2)" filter="url(#blur2)" opacity="0.6"/>
+  </g>
+
+  <!-- thin progress accent -->
+  <rect x="48" y="46" width="120" height="4" rx="2" fill="#22c1c3"/>
+
+  <text x="48" y="112" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">
+    Muhammad Delfa Tamerawan
+  </text>
+  <text x="48" y="142" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#b8bcc8">
+    Full-Stack &amp; Mobile Developer · SaaS &amp; Dashboard Builder
+  </text>
+
+  <!-- small tag pills -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#e6e8f0">
+    <rect x="48" y="164" width="76" height="26" rx="13" fill="#242640"/>
+    <text x="86" y="181" text-anchor="middle">Laravel</text>
+
+    <rect x="132" y="164" width="70" height="26" rx="13" fill="#242640"/>
+    <text x="167" y="181" text-anchor="middle">Flutter</text>
+
+    <rect x="210" y="164" width="76" height="26" rx="13" fill="#242640"/>
+    <text x="248" y="181" text-anchor="middle">Next.js</text>
+  </g>
+</svg>
