@@ -54,15 +54,18 @@ export default player;
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=laravel,flutter,firebase,js,php,mysql,git,github,vscode,postman&theme=dark&perline=10" />
+<img src="https://skillicons.dev/icons?i=laravel,flutter,nextjs,firebase,supabase,js,php,mysql,vercel,netlify,git,github,vscode,postman&theme=dark&perline=10" />
 
 <br/><br/>
 
 | Slot | Equipped |
 |---|---|
 | ⚔️ Primary weapon | `Laravel` — backend & APIs |
+| ⚔️ Primary weapon | `Next.js` — React framework, SSR/SSG |
 | 🛡️ Secondary weapon | `Flutter` — cross-platform mobile |
 | 🔋 Power core | `Firebase` — realtime data & auth |
+| 🔋 Power core | `Supabase` — Postgres backend-as-a-service |
+| 🚀 Deploy portal | `Vercel` `Netlify` |
 | 🗺️ Utility belt | `JavaScript` `PHP` `MySQL` `Git` |
 
 </div>
